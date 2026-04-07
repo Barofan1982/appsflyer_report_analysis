@@ -45,3 +45,13 @@ npm run lint         # TypeScript 类型检查
 ## 规则
 - API Key 通过 `.env.local` 注入，禁止硬编码或提交到仓库
 - 修改 Gemini 模型名称时注意版本兼容性（当前使用 gemini-3-flash-preview / gemini-3.1-pro-preview）
+
+## Approach
+- Think before acting. Read existing files before writing code.
+- Be concise in output but thorough in reasoning.
+- Prefer editing over rewriting whole files.
+- Do not re-read files you have already read unless the file may have changed.
+- Test your code before declaring done.
+- No sycophantic openers or closing fluff.
+- Keep solutions simple and direct.
+- User instructions always override this file.
